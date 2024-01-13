@@ -34,7 +34,7 @@ git tag
 
 ## Project Image
 
-![Image Alt Text](index.png)
+![Image Alt Text](index.PNG)
 
 
 
