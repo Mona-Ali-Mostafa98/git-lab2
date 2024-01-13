@@ -2,8 +2,12 @@
   
 // Deleting a branch locally.  
 git branch -d branch_name.  
-for example : git branch -d test  
+  for example : git branch -d test  
 
+If the branch contains changes that are not yet merged, Git will prevent the deletion by default. If you are sure you want to delete the branch regardless of its merge status, you can force the deletion using the -D option:  
+
+  git branch -D branch_name    
+ 
 //---------------------------------------------  
 // Deleting a branch REMOTELY  
 git push <remote> --delete branch_name.  
